@@ -1,0 +1,7 @@
+Colofon
+
+Voor mijn website heb ik verschillende sites gebruikt;
+W3Sschools, voor bijvoorbeeld de hover-funcies/de filepaths/de header.
+CSS-tricks - a guide to flexbox, voor de flexboxen die ik gebruik. 
+Combinatie van W3Schools en het Github Forum voor het font. 
+ChatGPT, dit heb ik alleen gebruikt voor de beschrijving van de producten.

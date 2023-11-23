@@ -1,112 +1,34 @@
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-        <meta charset="utf-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <title>Startpagina v3.0</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
-        <style>
-
-            body {
-                background-color: #ebe7e8;
-                /* background-color: #e4bb07; */
-            }
-            h1 {
-                margin: 0;
-                margin-bottom: 3%;
-                font-family: 'Ubuntu Mono', serif;
-                font-size: 96px;
-                color: #4390e8;
-            }
-            h2 {
-                margin: 0;
-                margin-top: 6%;
-                font-family: 'Ubuntu Mono', serif;
-                font-size: 36px;
-            }
-
-            h5 {
-                font-family: 'Courier New', Courier, monospace;
-                font-size: 36px;
-                margin: -40px 0 20px 0;
-            }
-            
-            h2,h5 {
-                color: #696364;
-            }
-
-            a {
-                font-family: 'Architects Daughter', serif;  
-                font-size: 24px;
-                color: #198aaf;
-                background-color: wheat;
-                text-decoration: none;
-                border-radius: 15%;
-                margin: 10px;
-                padding: 5px;
-            }
-            
-            a:hover {
-                background-color: yellow;
-            }     
-            
-            a {
-                font-size: 48px;
-                color: #1FABDA;
-            }
-
-            #lijstje a {
-                font-size: 24px;
-                background-color: transparent;
-            }
-
-            #container {
-                width: 65%;
-                margin: auto;
-                margin-top: 5%;
-                padding: 5%;
-                text-align: center;
-                border-left: 4px solid grey;
-                border-right: 4px solid grey;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="container">
-            <h1>startpagina</h1>
-            <h5>&#8645; versie 3.0</h5>
-            <a href="voorbeeldenVanVNR/index.html">VB</a>
-            <a href="bronnen/index.html">links</a>
-            <a href="oefenen/index.html">oefenen</a>
-            <a href="overMij/index.html">overMij</a>
-            <a href="PO/index.html">PO</a>
-            <h2>Snelklik</h2>
-            <!-- sorry, dit is een beetje sloppy -->
-            <div id="lijstje">
-                <!--
-                <a href="PO/PO_website_HTML_CSS_2022-2023_havo.pdf" target="_blank">PO havo</a> | 
-                <a href="PO/PO_website_HTML_CSS_2022-2023_vwo.pdf" target="_blank">PO vwo</a>
-                <br>
-                <a href ="overMij/TO_HTML_CSS_ 2022.pdf" target="_blank">TO over Mij</a><br>
-                -->
-                <a href ="https://www.codecademy.com/" target="_blank">Codecademy</a><br>
-                <a href ="https://github.com/" target="_blank">GitHub</a> (&& <a href ="https://www.gitpodstatus.com/" target="_blank">status</a>)<br>
-            </div>
-            <p>
-                <!-- https://www.w3.org/QA/Tools/Icons -->
-                <a href="https://validator.w3.org/nu/">
-                    <img style="border:0;width:88px;height:31px"
-                        src="https://www.w3.org/Icons/valid-html401-blue"
-                        alt="Valide CSS!" />
-                </a>
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                    <img style="border:0;width:88px;height:31px"
-                        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-                        alt="Valide CSS!" />
-                </a>
-            </p>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Liedel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-header">
+        <img src="/Images/Liedel2.png" alt="Liedel Logo" class="logo">
+      <a href="index.html" class="home-button">
+          <img src="/Images/Homebutton.png" alt="home" class="home-icon"/>
+      </a>
+    </header>
+    <div class="product-container">
+      <a href="/Producten/Frikandelbroodje.html" class="product">
+          <img src="/Images/Frikandelbroodje.png" alt="Frikandelbroodje" class="product-image">
+          <p>Frikandelbroodje</p>
+      </a>
+      <a href="/Producten/Appelmoes.html" class="product">
+          <img src="/Images/Appelmoes.png" alt="Appelmoes" class="product-image">
+          <p>Appelmoes</p>
+      </a>
+      <a href="/Producten/Knolselderij.html" class="product">
+        <img src="/Images/Knolselderij.png" alt="Knolselderij" class="product-image">
+        <p>Knolselderij</p>
+      </a>
+      <a href="/Producten/ChristopeitSportRoeiapparaat.html" class="product">
+        <img src="/Images/Christopeit-Sport-Roeiapparaat.png" alt="Christopeit Sport Roeiapparaat" class="product-image">
+        <p>Christopeit Sport Roeiapparaat</p>
+      </a>
+  </div>
+</body>
 </html>

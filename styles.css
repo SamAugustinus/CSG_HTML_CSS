@@ -1,0 +1,76 @@
+/* Algemene resets */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #fafafa;
+}
+
+/* Stijl voor de header */
+.top-header {
+   background-color: #004c99; /* Donkerblauwe achtergrond, vergelijkbaar met Lidl */
+   padding: 15px 15px; /* Voeg wat ruimte toe binnen de header */
+   display: flex; /* Gebruik flexbox voor layout */
+   align-items: center; /* Centreer items verticaal */
+   justify-content: start; /* Begin items aan de linkerkant */
+}
+
+.logo {
+   height: 100px; /* Stel een hoogte in voor het logo */
+   width: auto; /* Behoud de aspectratio van het logo */
+}
+
+.top-header {
+   /* bestaande styling */
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+
+.logo {
+   /* bestaande styling */
+   margin-right: 20px; /* Voeg ruimte toe aan de rechterkant van het logo, indien nodig */
+}
+
+.home-button {
+   /* Als je enige padding of andere styling rond de afbeelding wilt */
+}
+
+.home-icon {
+   width: 50px; /* Of de gewenste grootte voor je home-knop afbeelding */
+   height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+   /* Je kunt hier extra stijlen toevoegen indien nodig */
+}
+
+.home-button:hover .home-icon {
+   /* Stijlen voor hover effect, bijvoorbeeld een kleine schaalvergroting */
+   transform: scale(1.1);
+   transition: transform 0.3s;
+}
+
+.product-container {
+   display: flex; /* Gebruikt flexbox om producten naast elkaar te zetten */
+   justify-content: space-around; /* Verdeel de ruimte rond de items */
+   flex-wrap: wrap; /* Zorgt ervoor dat items naar de volgende regel gaan als er niet genoeg ruimte is */
+   padding: 20px; /* Voegt wat ruimte toe rond de container */
+}
+
+.product {
+   text-align: center; /* Centreert de tekst onder de afbeelding */
+   width: 200px; /* Stel een vaste breedte in voor alle producten */
+   margin: 10px; /* Voegt wat ruimte toe tussen de producten */
+   text-decoration: none; 
+   color: black;
+}
+
+.product-image {
+   width: 100%; 
+   height: auto; 
+   border: 3px solid #ddd; 
+   border-radius: 4px; 
+   margin-bottom: 8px; 
+}
+
+.product:hover, .product:focus {
+   background-color: #9fa7b0; 
+}
